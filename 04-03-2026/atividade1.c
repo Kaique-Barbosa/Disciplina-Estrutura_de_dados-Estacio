@@ -3,7 +3,6 @@
 // tipedef struct Alunos{}
 // Para criar um tipo e não precisar utilizar o struct ao definir uma variavel desse tipo
 
-// atividade -------------------
 
 /*
 Crie uma struct chamada Aluno contendo
@@ -14,9 +13,12 @@ valores e imprima os dados na tela.
 ---
 */
 
-int main() {
+
+
 #include <stdio.h>
 #include <string.h>
+
+int numero;
 
 // Criando a struct
 struct Aluno {
@@ -41,9 +43,6 @@ int main() {
 
     return 0;
 }
-    return 0;
-}
-
 
 
 
